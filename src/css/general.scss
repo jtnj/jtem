@@ -1,0 +1,46 @@
+body {
+    font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+    color: $light-grey;
+    background: $black;
+}
+a {
+    color: $light-grey;
+    transition: all 0.5s ease;
+}
+// nav elements
+header {
+    nav {
+        > a {
+            text-decoration: none;
+            display: block;
+            padding: 10px 0;
+            border-top: 1px solid $grey;
+            &:hover, &:focus {
+                color: $green;
+            }
+        }
+    }
+    .container {
+        border-bottom: 2px solid $purple;
+        padding: 20px 0 0;
+    }
+}
+footer {
+    .container {
+        border-top: 2px solid $purple;
+        padding: 20px 0 0;
+    }
+}
+.content {
+    padding: 20px 0;
+}
+@media screen and (min-width: 768px) {
+    header {
+        nav {
+            > a {
+                float: right;
+                border-top: none;
+            }
+        }
+    }
+}

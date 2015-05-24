@@ -1,0 +1,20 @@
+{
+  "name": "jtem",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jtnj/jtem",
+  "authors": [
+    "J"
+  ],
+  "description": "JTem",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gridism": "~0.2.1"
+  }
+}
